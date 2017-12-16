@@ -7,7 +7,7 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="favicon.ico">
+    <link rel="icon" href="img/Sapphire.png">
 
     <title>SAPPHIRE | XLRI</title>
 
@@ -33,19 +33,22 @@
   <body >
     <!-- Fixed navbar -->
     <div class="container">
-    <div class="container" style="padding: 10px">
-    	<div class="row">
+    	<div class="row" style="padding: 10px">
     		<div class="col-md-1">
-	    	<img src="./sponsors/sbi.jpg" height="50px">
+	    	<img src="./img/Sapphire.png" height="70px">
 	    	</div>
-    		<div class="col-md-6">
-			<h4><a href="index.html">
-		    	<b>SAPPHIRE</b><br/>
-		    	Xavier School of Management, Jamshedpur
-	    	</a></h4>
+    		<div class="col-md-8">
+    			<h4>
+          <a href="index.html">
+  		    	<b>SAPPHIRE</b><br/>
+  		    	Xavier School of Management, Jamshedpur
+  	    	</a>
+          </h4>
 	    	</div>
+        <div class="col-md-3" style="align-items: right" align="right">
+        <img src="./img/XLRI.png" height="60px">
+        </div>
     	</div>
-    </div>
     <nav class="navbar navbar-default navbar-static-top" style="z-index: 1">
       <div class="container">
         <div class="navbar-header">
@@ -63,9 +66,10 @@
             <li><a href="about.html" >About</a></li>
             <li><a href="events.html">Events</a></li>
             <li><a href="partners.html">Partners</a></li>
-            <li><a href="alumini.html">Alumini</a></li>
+            <li><a href="Alumni.html">Alumni</a></li>
             <li><a href="gallery.html">Gallery</a></li>
             <li><a href="publications.html">Publications</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -74,67 +78,117 @@
 
       <!-- Main component for a primary marketing message or call to action -->
 
- 		<div class="col-md-9">
-
+    <div class="row">
+ 		<div class="col-md-9" >
 		    <div class="mySlides">
-		      <div class="numbertext">1 / 4</div>
-		      <img src="https://www.w3schools.com/howto/img_mountains_wide.jpg" style="width:100%">
+          <div class="numbertext">1 / 4</div>
+          <img src="https://www.w3schools.com/howto/img_mountains_wide.jpg" style="width:100%;">
+		      <div class="captionText" > What's New in HR?</div>
 		    </div>
-
 		    <div class="mySlides">
 		      <div class="numbertext">2 / 4</div>
 		      <img src="https://www.w3schools.com/howto/img_lights_wide.jpg" style="width:100%">
+          <div class="captionText" >All about Industrial Relations</div>
 		    </div>
-
 		    <div class="mySlides">
 		      <div class="numbertext">3 / 4</div>
 		      <img src="https://www.w3schools.com/howto/img_nature_wide.jpg" style="width:100%">
+          <div class="captionText" >Researcher's Corner</div>
 		    </div>
-		    
 		    <div class="mySlides">
 		      <div class="numbertext">4 / 4</div>
 		      <img src="https://www.w3schools.com/howto/img_fjords_wide.jpg" style="width:100%">
+          <div class="captionText">Does AI Really Matter?</div>
 		    </div>
-		    
 		    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
 		    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
 		    <div class="caption-container">
-		      <p id="caption" style="margin: 0px"></p>
-		    </div>
-
-
-		    <div class="slider-column">
-		      <img class="demo cursor" src="https://www.w3schools.com/howto/img_mountains_wide.jpg" style="width:100%" onclick="currentSlide(1)" alt="Nature and sunrise">
 		    </div>
 		    <div class="slider-column">
-		      <img class="demo cursor" src="https://www.w3schools.com/howto/img_lights_wide.jpg" style="width:100%" onclick="currentSlide(2)" alt="Trolltunga, Norway">
+		      <img class="demo cursor" src="https://www.w3schools.com/howto/img_mountains_wide.jpg" style="width:100%" onclick="currentSlide(1)">
+          <div class="captionText1" onclick="currentSlide(1)">What's New in HR?</div>
 		    </div>
 		    <div class="slider-column">
-		      <img class="demo cursor" src="https://www.w3schools.com/howto/img_nature_wide.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+		      <img class="demo cursor" src="https://www.w3schools.com/howto/img_lights_wide.jpg" style="width:100%" onclick="currentSlide(2)" >
+          <div class="captionText2" onclick="currentSlide(2)">All about Industrial Relations</div>
 		    </div>
 		    <div class="slider-column">
-		      <img class="demo cursor" src="https://www.w3schools.com/howto/img_fjords_wide.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+		      <img class="demo cursor" src="https://www.w3schools.com/howto/img_nature_wide.jpg" style="width:100%" onclick="currentSlide(3)">
+          <div class="captionText3" onclick="currentSlide(3)">Researcher's Corner</div>
+		    </div>
+		    <div class="slider-column">
+		      <img class="demo cursor" src="https://www.w3schools.com/howto/img_fjords_wide.jpg" style="width:100%" onclick="currentSlide(4)" >
+          <div class="captionText4" onclick="currentSlide(4)" >Does AI Really Matter?</div>
 		    </div>	      
-
  		</div>
  		<div class="col-md-3">
- 			<div style="border:1px solid #D5D5D5;background-color: #EEEEEE; height: 200px">
+ 			<div style="border:1px solid #D5D5D5;background-color: #EEEEEE; ">
  				<div style="border-bottom:1px solid #D5D5D5;background-color: white;padding: 5px;color: #575757" align="center">
  					<B>NOTIFICATIONS</B>
  				</div>
- 				<div style="background-color: #EEEEEE">
- 					
- 				</div>
- 			</div>
+ 				<div style="background-color: #EEEEEE;padding: 10px">
+          <b>
+          <a href="https://goo.gl/forms/2Hx5xTtmmaLZa0uC2" target="_blank">Registration for Conference Delegates</a><br/><br/>
+          <a href="events.html#HRIRConference" style="color: white">
+          <div style="align-items: center;width: 100%;padding: 10px;background-color: #2352A4;color: white" align="center" >
+            <b>Coming Soon:</b> HR IR Conference
+          </div>
+          </a><br/>
+          <a href="https://goo.gl/forms/BJG1scjEOI4zdPoO2" target="_blank">Registration for Paper Presentation</a>
+          </b><br/><br/>
+          <a href="events.html#Battle" style="color: white">
+          <div style="align-items: center;width: 100%;padding: 10px;background-color: #2352A4;color: white" align="center" >
+            <b>Coming Soon: </b>BHR Round 4
+          </div>
+          </a><br/>
+        </div>
+      </div>
+
+    </div>
  		</div>
+    
 
-
-
-
+    <div class="row" style="margin-top: 100px;background-color: #EEEEEE">
+      <footer class="footer">
+        <div class="container">
+        <div class="row" style="padding: 20px">
+          <div class="col-md-6">
+            <h3><b>Contact Us</b><br/><br/></h3>
+            <div class="row">
+              <div class="col-md-1"> 
+                <i class="fa fa-facebook-square" aria-hidden="true"></i>
+              </div>
+              <div class="col-md-8">
+                <b><a href="https://www.facebook.com/sapphirexlri" style="color: black" target="_blank">Facebook</a></b>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-1" > 
+                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+              </div>
+              <div class="col-md-8">
+                <b><a href="https://www.linkedin.com/in/sapphire-xlri-16b98614b/" style="color: black" target="_blank">Linkedin</a></b>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-1" > 
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+              </div>
+              <div class="col-md-8">
+                <b><a href="mailto:sapphire@xlri.ac.in" style="color: black">sapphire@xlri.ac.in</a></b>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3505.5444214003683!2d76.72100701467731!3d28.523351482461113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d6e85e6a9c73b%3A0x275618219543e7!2sXLRI+Campus+Jhajjar!5e0!3m2!1sen!2sin!4v1513366521930" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+          </div>
+        </div>
+        </div>
+      </footer>
+    </div>
     </div> <!-- /container -->
 
-
+</style>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
@@ -144,8 +198,8 @@
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="./js/js/ie10-viewport-bug-workaround.js"></script>
     <script src="./js/slider.js"></script>
+    <script src="https://use.fontawesome.com/173f5df1b0.js"></script>
 
     	
-</script>    
   </body>
 </html>
