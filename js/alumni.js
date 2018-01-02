@@ -46,6 +46,7 @@ $('.scroller-right').click(function() {
   $('.scroller-left').fadeIn('slow');
   $('.scroller-right').fadeOut('slow');
   
+  // $('.list').animate({left:"+="+widthOfHidden()+"px"},'slow',function(){
   $('.list').animate({left:"+="+widthOfHidden()+"px"},'slow',function(){
 
   });
