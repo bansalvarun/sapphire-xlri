@@ -320,6 +320,16 @@
     <script>window.jQuery || document.write('<script src="./js/js/vendor/jquery.min.js"><\/script>')</script>
     <script src="./js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script type="text/javascript">
+      $(function(){
+        var hash = window.location.hash;
+        hash && $('ul.nav a[href="' + hash + '"]').tab('show');
+        $('.nav-tabs a').click(function (e) {
+          $(this).tab('show');
+        });
+      });
+    </script>
+
     <script src="./js/js/ie10-viewport-bug-workaround.js"></script>
     <script src="https://use.fontawesome.com/173f5df1b0.js"></script>
 
